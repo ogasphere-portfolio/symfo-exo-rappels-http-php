@@ -25,7 +25,7 @@ Rendez-vous dans le dossier sous `localhost`, les URLs existantes sont :
 
 Nous allons maintenant nous demander comment convertir cela en programmation orientée objet. Quelles classes seront nécessaires ? Comment refactoriser le code actuel ?
 
-> :hand: Prenez quelques minutes pour **recenser les différentes classes possibles** ainsi que leurs méthodes. Vous pouvez [vous aider du schéma MVC](https://github.com/O-clock-Alumni/fiches-recap/blob/master/gestion-projet/modele-vue-controller.md#le-front-controller). Une fois que ça vous semble cohérent, **ouvrez le spoiler ci-dessous** pour comparer. Utilisez les classes du spoiler ou les vôtres.
+> :hand: Prenez quelques minutes pour **recenser les différentes classes possibles** ainsi que leurs méthodes. Vous pouvez [vous aider du schéma MVC](assets/docs/aide/gestion-projet/modele-vue-controller.md#le-front-controller). Une fois que ça vous semble cohérent, **ouvrez le spoiler ci-dessous** pour comparer. Utilisez les classes du spoiler ou les vôtres.
 
 <details>
     <summary>Spoiler : classes possibles</summary>

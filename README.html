@@ -1,0 +1,50 @@
+<h1 id="s01e01-−-exercice-phppoomvc">S01E01 − Exercice PHP/POO/MVC</h1>
+<h2 id="traitement-dune-requête">Traitement d'une requête</h2>
+<h3 id="objectifs">Objectifs</h3>
+<ul>
+<li><strong>Analyser le code fourni</strong> (code procédural, c'est-à-dire à base de fonctions, sans programmation objet).</li>
+<li><strong>Commenter le code</strong>, les fonctions utilisateurs et les fonctions PHP natives.</li>
+<li><strong>Convertir le code en PHP Objet</strong>.</li>
+</ul>
+<h3 id="exécuter-le-code">Exécuter le code</h3>
+<p>Rendez-vous dans le dossier sous <code>localhost</code>, les URLs existantes sont :</p>
+<ul>
+<li>Afficher la page d'accueil : <code>/</code> (ou <code>/index.php</code>)</li>
+<li>Afficher la page contact : <code>/?page=contact</code> ou <code>/index.php?page=contact</code></li>
+<li>Afficher la page API : <code>/?page=api</code> ou <code>/index.php?page=api</code></li>
+<li>Afficher une 404 : <code>/?page=</code> ou <code>/?page=azerty</code></li>
+</ul>
+<h3 id="exercice--analyse">Exercice : Analyse</h3>
+<blockquote>
+  <p>✋ Prenez quelques minutes pour analyser de code source de votre côté. Ajoutez vos commentaires. Si vous avez besoin d'aide, vous pouvez suivre le document <a href="README-Support-Analyse.md">Support Analyse</a>. Nous utiliserons ce document pour faire cette analyse ensemble</p>
+</blockquote>
+<h3 id="exercice--conversion-en-poo">Exercice : Conversion en POO</h3>
+<p>Nous allons maintenant nous demander comment convertir cela en programmation orientée objet. Quelles classes seront nécessaires ? Comment refactoriser le code actuel ?</p>
+<blockquote>
+  <p>✋ Prenez quelques minutes pour <strong>recenser les différentes classes possibles</strong> ainsi que leurs méthodes. Vous pouvez <a href="assets/docs/aide/gestion-projet/modele-vue-controller.md#le-front-controller">vous aider du schéma MVC</a>. Une fois que ça vous semble cohérent, <strong>ouvrez le spoiler ci-dessous</strong> pour comparer. Utilisez les classes du spoiler ou les vôtres.</p>
+</blockquote>
+<p><details><br />
+    <summary>Spoiler : classes possibles</summary></p>
+<ul>
+<li><code>App</code> ou <code>FrontController</code></li>
+<li><code>Controller</code></li>
+<li><code>Model</code></li>
+<li><code>View</code></li>
+</ul>
+<p>On pourrait y ajouter</p>
+<ul>
+<li><code>Router</code></li>
+<li><code>Dispatcher</code></li>
+</ul>
+<p>Mais par souci de simplicité, nous mettrons ces deux-là dans <code>App</code>.</p>
+<p></details></p>
+<p><strong><em>Ensuite</em></strong></p>
+<ul>
+<li><strong>Convertir le code actuel</strong> avec les dites classes.</li>
+</ul>
+<p>Processus : </p>
+<ul>
+<li><strong>Déplacer les fonctions</strong> une à une dans la classe ciblée.</li>
+<li><strong>Tester l'appli</strong> régulièrement en modifiant <em>le minimum de code</em>.</li>
+<li><strong>Recommencer</strong> jusqu'à ce que le fichier <code>functions.php</code> soit vide.</li>
+</ul>
